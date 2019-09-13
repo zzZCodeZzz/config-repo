@@ -1,2 +1,14 @@
+root:
+  blub: blubbi
+  info: info_root
+
+---
+spring:
+  profiles: test1
 info:
-  foo: bar
+  foo: bar1
+---
+spring:
+  profiles: test2
+info:
+  foo: bar2
